@@ -53,7 +53,7 @@ if __name__ == "__main__":
           url=URL,
           long_description=LONG_DESCRIPTION,
           packages=find_packages(),
-          package_data={'docs': ['*'], 'pymc3.examples': ['data/*']},
+          package_data={'docs': ['*'],},
           classifiers=classifiers,
           install_requires=install_reqs,
           tests_require=test_reqs,
